@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="book" />
+    <RootPropertyPathName Name="PovCharacters" />
+    <RootPropertyPathName Name="Characters" />
+    <RootPropertyPathName Name="Authors" />
+    <RootPropertyPathName Name="Released" />
+    <RootPropertyPathName Name="MediaType" />
+    <RootPropertyPathName Name="Country" />
+    <RootPropertyPathName Name="Publisher" />
+    <RootPropertyPathName Name="numberOfPages" />
+    <RootPropertyPathName Name="ISBN" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="character" />
+    <RootPropertyPathName Name="playedBy" />
+    <RootPropertyPathName Name="TvSeries" />
+    <RootPropertyPathName Name="PovBooks" />
+    <RootPropertyPathName Name="Books" />
+    <RootPropertyPathName Name="Allegiances" />
+    <RootPropertyPathName Name="spouseName" />
+    <RootPropertyPathName Name="Spouse" />
+    <RootPropertyPathName Name="motherName" />
+    <RootPropertyPathName Name="Mother" />
+    <RootPropertyPathName Name="fatherName" />
+    <RootPropertyPathName Name="Father" />
+    <RootPropertyPathName Name="Titles" />
+    <RootPropertyPathName Name="Aliases" />
+    <RootPropertyPathName Name="Culture" />
+    <RootPropertyPathName Name="Died" />
+    <RootPropertyPathName Name="Born" />
+    <RootPropertyPathName Name="Gender" />
+    <RootPropertyPathName Name="house" />
+    <RootPropertyPathName Name="SwornMembers" />
+    <RootPropertyPathName Name="CadetBranches" />
+    <RootPropertyPathName Name="AncestralWeapons" />
+    <RootPropertyPathName Name="Seats" />
+    <RootPropertyPathName Name="CoatOfArms" />
+    <RootPropertyPathName Name="DiedOut" />
+    <RootPropertyPathName Name="Founded" />
+    <RootPropertyPathName Name="FounderName" />
+    <RootPropertyPathName Name="Founder" />
+    <RootPropertyPathName Name="Overlord" />
+    <RootPropertyPathName Name="HeirName" />
+    <RootPropertyPathName Name="Heir" />
+    <RootPropertyPathName Name="CurrentLordName" />
+    <RootPropertyPathName Name="CurrentLord" />
+    <RootPropertyPathName Name="Region" />
+    <RootPropertyPathName Name="Words" />
+    <RootPropertyPathName Name="books" />
+    <RootPropertyPathName Name="houses" />
+    <RootPropertyPathName Name="characters" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="HomeWork.MainPage" />
+    <RootType FullName="HomeWork.ViewModels.BookDetailsPageViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="ClickMode" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="AccessKey" />
+      <RootProperty Name="Visibility" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextDecorations" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootEvent Name="ItemClick" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="HomeWork.Views.BookDetailsPage" />
+    <RootType FullName="HomeWork.ViewModels.CharacterDetailsPageViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Line">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="X2" />
+    </RootType>
+    <RootType FullName="HomeWork.Views.CharacterDetailsPage" />
+    <RootType FullName="HomeWork.ViewModels.HouseDetailsPageViewModel" />
+    <RootType FullName="HomeWork.Views.HouseDetailsPage" />
+    <RootType FullName="HomeWork.ViewModels.MenuPageViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="SelectedIndex" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="System.Int32" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="System.String" />
+    <RootType FullName="HomeWork.Views.MenuPage" />
+    <RootType FullName="HomeWork.ViewModels.SearchPageViewModel" />
+    <RootType FullName="HomeWork.Views.SearchPage" />
+  </Roots.RootTypes>
+</Roots>

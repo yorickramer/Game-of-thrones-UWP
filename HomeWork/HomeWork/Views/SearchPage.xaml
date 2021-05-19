@@ -1,0 +1,138 @@
+﻿<Page
+    x:Class="HomeWork.Views.SearchPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HomeWork.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:vm="using:HomeWork.ViewModels"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <vm:SearchPageViewModel x:Name="ViewModel"/>
+    </Page.DataContext>
+
+
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>                <RowDefinition Height="Auto"/>            </Grid.RowDefinitions>
+
+            <StackPanel  Grid.Row="0"  Grid.ColumnSpan="3">
+
+                <Image  Width="100" Source="/Images/search.jpg"/>
+
+                
+
+                <StackPanel HorizontalAlignment="Center" x:Name="searchBar">
+
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,5">
+
+                        <ComboBox HorizontalAlignment="Center" Header="Search Type" SelectedIndex="0" Width="100" x:Name="combotype">
+                            <x:String>All</x:String>
+                            <x:String>Character</x:String>
+                            <x:String>House</x:String>
+                            <x:String>Books</x:String>
+                        </ComboBox>
+
+                        <TextBox x:Name="nameInput"
+                         Header="Search:" PlaceholderText="search"
+                         Width="300" HorizontalAlignment="Left"/>
+
+
+                    </StackPanel>
+                    <Button Content="Search" Click="Search_Click" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                    
+                </StackPanel>
+            </StackPanel>
+
+
+
+
+            <Grid BorderBrush="Goldenrod" BorderThickness="0,0,8,0" Grid.Row="2" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>                </Grid.RowDefinitions>
+
+
+                <TextBlock Grid.Row="0"  Margin="18" Text="Characters:"  VerticalAlignment="Center" HorizontalAlignment="Center" TextDecorations="Underline" FontSize="20" Foreground="DarkGoldenrod"/>
+                <GridView Grid.Row="1"  ItemsSource="{Binding characters}" Margin="80,0,80,0" HorizontalAlignment="Center"
+                                IsItemClickEnabled="True"
+                                ItemClick="Character_ItemClick">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel   Width="300"  HorizontalAlignment="Stretch">
+                                <TextBlock Text="{Binding Name}" />
+                                <TextBlock Text="{Binding Culture}" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+
+                </GridView>
+
+            </Grid>
+
+
+
+            <Grid BorderBrush="Goldenrod" BorderThickness="0,0,8,0" Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>                </Grid.RowDefinitions>
+
+
+                <TextBlock Grid.Row="0"  Margin="18"  Text="Houses:"  VerticalAlignment="Center" HorizontalAlignment="Center" TextDecorations="Underline" FontSize="20" Foreground="DarkGoldenrod"/>
+                <GridView Grid.Row="1"  ItemsSource="{Binding houses}" Margin="80,0,80,0"
+                                IsItemClickEnabled="True"
+                                ItemClick="House_ItemClick" VerticalAlignment="Center">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Width="300">
+                                <TextBlock Text="{Binding Name}"/>
+                                <TextBlock Text="{Binding CurrentLord}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+
+                </GridView>
+
+            </Grid>
+
+
+            <Grid  Grid.Row="2" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>                </Grid.RowDefinitions>
+
+
+                <TextBlock Grid.Row="0"  Margin="18" Text="Books:"  VerticalAlignment="Center" HorizontalAlignment="Center" TextDecorations="Underline" FontSize="20" Foreground="DarkGoldenrod"/>
+                <GridView Grid.Row="1"  ItemsSource="{Binding books}" Margin="80,0,80,0" HorizontalAlignment="Center"
+                                IsItemClickEnabled="True"
+                                ItemClick="Book_ItemClick" VerticalAlignment="Center">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Width="300">
+                                <TextBlock Text="{Binding Name}"/>
+                                <TextBlock Text="{Binding ISBN}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+
+                </GridView>
+
+            </Grid>
+
+
+            <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" >
+                <Button x:Name="homebtn"  Content="Home" Click="OnClickHome" ClickMode="Release" Margin="5,20,5,20" Width="150" HorizontalAlignment="Center" CornerRadius="10" Background="Goldenrod" Foreground="Black"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

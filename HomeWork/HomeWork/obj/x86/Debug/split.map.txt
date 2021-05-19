@@ -1,0 +1,23 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\split.pri"			"resources.pri"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Properties\Default.rd.xml"			"Properties\Default.rd.xml"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Images\search.jpg"			"Images\search.jpg"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Images\logo2.png"			"Images\logo2.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Images\house.jpg"			"Images\house.jpg"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Images\character.jpg"			"Images\character.jpg"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Images\book.jpg"			"Images\book.jpg"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\HomeWork.xr.xml"			"HomeWork.xr.xml"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\Wide310x150Logo.scale-200.png"			"Assets\Wide310x150Logo.scale-200.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\StoreLogo.png"			"Assets\StoreLogo.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\Square44x44Logo.scale-200.png"			"Assets\Square44x44Logo.scale-200.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\Square44x44Logo.targetsize-24_altform-unplated.png"			"Assets\Square44x44Logo.targetsize-24_altform-unplated.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\logo3.jpg"			"Assets\logo3.jpg"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\logo2.png"			"Assets\logo2.png"
+"C:\Users\Yorick Kramer\Desktop\HomeWork\HomeWork\obj\x86\Debug\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"

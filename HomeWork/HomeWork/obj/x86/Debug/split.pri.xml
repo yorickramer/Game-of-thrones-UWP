@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="3b9b8349-be55-4b2f-b9de-5024008b6d6a" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HomeWork.xr.xml" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/HomeWork.xr.xml">
+				<Candidate type="Path">
+					<Value>HomeWork.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo2.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/logo2.png">
+					<Candidate type="Path">
+						<Value>Assets\logo2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo3.jpg" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/logo3.jpg">
+					<Candidate type="Path">
+						<Value>Assets\logo3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Images">
+				<NamedResource name="book.jpg" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Images/book.jpg">
+					<Candidate type="Path">
+						<Value>Images\book.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="character.jpg" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Images/character.jpg">
+					<Candidate type="Path">
+						<Value>Images\character.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="house.jpg" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Images/house.jpg">
+					<Candidate type="Path">
+						<Value>Images\house.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo2.png" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Images/logo2.png">
+					<Candidate type="Path">
+						<Value>Images\logo2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="search.jpg" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Images/search.jpg">
+					<Candidate type="Path">
+						<Value>Images\search.jpg</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="BookDetailsPage.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Views/BookDetailsPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CharacterDetailsPage.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Views/CharacterDetailsPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HouseDetailsPage.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Views/HouseDetailsPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MenuPage.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Views/MenuPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SearchPage.xbf" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/Views/SearchPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://3b9b8349-be55-4b2f-b9de-5024008b6d6a/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
